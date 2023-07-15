@@ -125,7 +125,7 @@ setInterval(() => {
 }, 5000)
 
 // Serve frontend files
-app.use(express.static('docs'));
+app.use(express.static('public'));
 
 // Start http listener
 const port = process.env.PORT || 3000;
