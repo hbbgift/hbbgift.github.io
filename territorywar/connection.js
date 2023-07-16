@@ -1,10 +1,10 @@
 /**
- * Wrapper for client-side TikTok connection over Socket
+ * Wrapper for client-side TikTok connection over Socket.IO
  * With reconnect functionality.
  */
- class TikTokConnection {
+ class TikTokIOConnection {
     constructor(backendUrl) {
-        this.socket = (backendUrl);
+        this.socket = io(backendUrl);
         this.uniqueId = null;
         this.options = null;
 

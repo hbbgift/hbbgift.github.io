@@ -1,5 +1,5 @@
 let backendUrl = undefined;
-let connection = new TikTokConnection(backendUrl);
+let connection = new TikTokIOConnection(backendUrl);
 
 $(document).ready(() => {
     connect();
