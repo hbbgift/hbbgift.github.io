@@ -130,4 +130,4 @@ app.use(express.static('public'));
 // Start http listener
 const port = process.env.PORT || 3000;
 httpServer.listen(port);
-console.info(`Server running! Please visit http://hbbgift.github.io/?tiktok=weteta4165 Remember to click on the web screen to enable the AUDIO`);
+console.info(`Server running! Please visit http://localhost:${port}/?tiktok=weteta4165 Remember to click on the web screen to enable the AUDIO`);
